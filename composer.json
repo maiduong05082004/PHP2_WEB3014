@@ -1,0 +1,20 @@
+{
+    "name": "admin/test",
+    "autoload": {
+        "psr-4": {
+            "App\\Admin\\": ["app/admin"],
+            "App\\Client\\": ["app/client"]
+        }
+    },
+    "authors": [
+        {
+            "name": "maiduong",
+            "email": "duongmdph40323@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.12",
+        "phroute/phroute": "^2.2",
+        "twbs/bootstrap": "5.3.3"
+    }
+}
